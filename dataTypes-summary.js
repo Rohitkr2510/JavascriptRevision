@@ -26,3 +26,23 @@ let myObj = {
 const myFunction = function() {
     console.log("Hello world");
 }
+
+
+// Stack (Primitive) , Head(Non-Primivie)
+
+// let myYoutubeNme = "hiteshchoudarydotcom"
+
+// let anothername = myYoutubeNme
+// anothername = "rohit"
+// console.log(myYoutubeNme)
+// console.log(anothername)
+
+let userOne = {
+    email : "rohit@gmail.com",
+    age : 22,
+}
+
+let userTwo = userOne;
+userTwo.email = "rohit"
+console.log(userOne.email)
+console.log(userTwo.email)
